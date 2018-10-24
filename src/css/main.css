@@ -1,0 +1,122 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-family: "Oxygen Mono", monospace;
+  background: url("http://grace.kharkov.ua/static/freecodecamp/background.jpg");
+}
+
+.col-12-12 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.col-6-12 {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  margin: 1%;
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container .settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.container .settings p {
+  font-size: 1.5em;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.container .settings #break-length,
+.container .settings #session-length {
+  font-size: 2.5em;
+  padding: 0 20px;
+}
+
+.container .settings a[id*="break"] i,
+.container .settings a[id*="session"] i {
+  color: #333;
+}
+
+.container .clock {
+  margin: 50px auto;
+  width: 350px;
+}
+
+.container .clock h2 {
+  text-align: center;
+}
+
+.container .clock .time-left {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 15px solid #7195b7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.container .clock .time-left #time-left {
+  font-size: 4em;
+  color: #333;
+}
+
+.btn {
+  background: #fff;
+  border: none;
+  margin: 5px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn i {
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  line-height: 1em;
+}
+/*# sourceMappingURL=main.css.map */
