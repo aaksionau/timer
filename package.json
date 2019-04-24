@@ -31,8 +31,8 @@
     "tslint-react": "^3.6.0"
   },
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "typescript": "^3.1.3"
   }
 }
